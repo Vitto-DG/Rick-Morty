@@ -1,0 +1,29 @@
+.tarjeta {
+
+    background-color: rgb(90, 172, 90);
+    /* background: #D0E4F5 url("https://ih1.redbubble.net/image.4386282489.4510/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg") no-repeat local 0 0; */
+    width: fit-content;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 10px;
+    border-color: #33e633;
+    border-spacing: 5in;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+border: 5px inset #1C6EA4;
+}
+
+.tarjeta:hover {
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+    }
+
+.closeButton {
+    color:blanchedalmond;
+    background-color: #FF616B;
+    outline: 2px solid rgba(255,75,65,0.82);
+    outline-offset: 2px;
+}
