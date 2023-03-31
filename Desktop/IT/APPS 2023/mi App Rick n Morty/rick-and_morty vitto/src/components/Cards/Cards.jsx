@@ -10,11 +10,12 @@ function Cards(props) {
                      return(
                         <Card
                         key={pers.id}
+                        id={pers.id}
                         name={pers.name}
                         species={pers.species}
                         gender={pers.gender}
                         image={pers.image}
-                        onClose={() => window.alert('Emulamos que se cierra la card')}
+                        onClose={props.onClose}
                         />
                      )
                   })

@@ -1,0 +1,16 @@
+.About{
+    flex-direction: row;
+    
+}
+.pic{
+    height: 180px;
+    width: auto;
+    
+}
+h1, p{
+    background-color: rgba(132, 255, 214, 0.699);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 3px;
+    
+}

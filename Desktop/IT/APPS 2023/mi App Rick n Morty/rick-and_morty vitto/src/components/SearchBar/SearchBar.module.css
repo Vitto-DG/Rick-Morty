@@ -15,3 +15,15 @@
     background: -webkit-linear-gradient(top, #82CE83 0%, #1C6EA4 50%, #C5BA9E 100%);
     background: linear-gradient(to bottom, #82CE83 0%, #1C6EA4 50%, #C5BA9E 100%);
 }
+.searchButton:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px -1px 3px rgba(206,89,55,0);
+color: #70F6A4;
+background: #363636;
+}
+.searchButton:active{
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+background: #232323;
+}
